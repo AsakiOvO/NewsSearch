@@ -1,0 +1,13 @@
+<script lang="ts" setup></script>
+
+<template>
+    <div class="flex justify-center items-center h-auto">
+        <el-result icon="warning" title="404提示" sub-title="您找的页面走丢了~">
+            <template #extra>
+                <el-button type="primary" @click="$router.push({ name: 'index' })">返回首页</el-button>
+            </template>
+        </el-result>
+    </div>
+</template>
+
+<style lang="less" scoped></style>

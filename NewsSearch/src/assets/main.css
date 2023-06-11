@@ -1,0 +1,36 @@
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'SmileySans';
+    src: url('./font-family/SmileySans-Oblique.ttf');
+}
+
+@font-face {
+    font-family: 'LXGW-WenKai';
+    src: url('./font-family/LXGWWenKai-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'LXGW-XiHei';
+    src: url('./font-family/LXGWNeoXiHei.ttf');
+}
+
+#nprogress .bar {
+    background-color: #ffcef3 !important;
+    height: 3px !important;
+}
+
+#nprogress .peg {
+    box-shadow: 0 0 10px #fb929e, 0 0 5px #fb929e !important;
+}
+
+#nprogress .spinner-icon {
+    border-top-color: #ffcef3 !important;
+    border-left-color: #ffcef3 !important;
+}
